@@ -7,7 +7,7 @@ $(function () {
     var iTransform, cTransform;
 
     mediaObj = new Audio();
-    mediaObj.src = '/images/media/Music.mp3';  // 背景音乐修改这里
+    mediaObj.src = './images/media/Music.mp3';  // 背景音乐修改这里
     mediaObj.loop = true;
     mediaObj.autoplay = true;
     // window.mediaObj = mediaObj;
@@ -116,5 +116,5 @@ $(function () {
         return Math.ceil(Math.random() * 15);
     };
 
-    $image.css('backgroundImage', 'url("/images/media/on' + random() + '.JPG")');
+    $image.css('backgroundImage', 'url("./images/media/on' + random() + '.JPG")');
 });
