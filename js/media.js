@@ -7,7 +7,8 @@ $(function () {
     var iTransform, cTransform;
 
     mediaObj = new Audio();
-    mediaObj.src = './images/media/Music.mp3';  // 背景音乐修改这里
+    // https://github.com/wei1273356078/3D-Albums/blob/master/images/media/music
+    mediaObj.src = 'https://github.com/wei1273356078/3D-Albums/blob/master/images/media/music.mp3';  // 背景音乐修改这里
     mediaObj.loop = true;
     mediaObj.autoplay = true;
     // window.mediaObj = mediaObj;
